@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8556955032849622191}
   - component: {fileID: 8556955032849622224}
   - component: {fileID: 8556955032849622187}
+  - component: {fileID: 2134159774713019540}
   m_Layer: 0
   m_Name: EnemyShot
   m_TagString: EnemyShot
@@ -126,3 +127,16 @@ MonoBehaviour:
   shotRange: 10
   shotDamage: 10
   shotDirection: {x: -1, y: 0}
+--- !u!114 &2134159774713019540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8556955032849622225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90200b73bd73bdb4cad16e9e5f16dc08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  posOnScreen: {x: 0, y: 0, z: 0}

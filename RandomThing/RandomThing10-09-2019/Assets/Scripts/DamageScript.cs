@@ -31,6 +31,24 @@ public class DamageScript : MonoBehaviour
                 // destroy bullet
                 Destroy(collision.gameObject);
             }
+            // if object that has collided is an anemy and this object is a player
+            else if (collision.gameObject.tag == "EnemyShip" && gameObject.tag == "PlayerShip")
+            {
+                // PLAYER DEATH
+
+                // destroy both objects
+                Destroy(collision.gameObject);
+                Destroy(gameObject);
+
+            }
+            // if the player ship collides with the environment
+            else if (collision.gameObject.tag == "Environment" && gameObject.tag == "PlayerShip")
+            {
+                // PLAYER DEATH
+
+                // destroy the player
+                Destroy(gameObject);
+            }
         }
 
     }

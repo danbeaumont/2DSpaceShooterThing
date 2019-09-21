@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 424425622967402981}
   - component: {fileID: 5819589543021897320}
   - component: {fileID: 4923221992931722123}
+  - component: {fileID: -5905782445620715940}
   m_Layer: 0
   m_Name: PlayerShot
   m_TagString: PlayerShot
@@ -123,7 +124,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35727e69ce4e3074b90bc098e11e43ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shotSpeed: 300
+  shotSpeed: 600
   shotRange: 1
   shotDamage: 10
   shotDirection: {x: 1, y: 0}
+--- !u!114 &-5905782445620715940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5980908106196922136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90200b73bd73bdb4cad16e9e5f16dc08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  posOnScreen: {x: 0, y: 0, z: 0}

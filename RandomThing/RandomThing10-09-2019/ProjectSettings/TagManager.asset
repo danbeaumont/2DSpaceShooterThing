@@ -10,6 +10,7 @@ TagManager:
   - EnemyShip
   - EnemyShot
   - EnemyShotPoint
+  - Environment
   layers:
   - Default
   - TransparentFX

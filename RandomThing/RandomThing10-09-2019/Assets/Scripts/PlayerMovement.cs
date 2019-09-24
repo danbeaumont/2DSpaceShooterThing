@@ -35,7 +35,7 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
         // calculate desired velocity
-        Vector3 movement = moveDir * moveSpeed;
+        Vector3 movement = moveDir * moveSpeed * Time.deltaTime;
         rb.velocity = movement;
 
         // check bounds
